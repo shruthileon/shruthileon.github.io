@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fdf6;
+    color: #333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2 {
+    color: #1b5e20;
+}
+
+/* Project Section */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-box {
+    background: white;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-box h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #2e7d32;
+}
+
+.project-box p {
+    padding: 0 15px 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+.project-box a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
