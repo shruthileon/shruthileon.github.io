@@ -87,16 +87,16 @@ section {
     position: relative;
 }
 
-/* Add section dividers */
+/* Add section dividers
 section::after {
     content: "";
     display: block;
     width: 50%;
     height: 2px;
     background: #4caf50;
-    margin: 10px auto; /* Ensures equal spacing between top and bottom dividers */
+    margin: 10px auto; /* Ensures equal spacing between top and bottom dividers 
     opacity: 0.5;
-}
+} */
 
 /* About Section */
 #about img {
